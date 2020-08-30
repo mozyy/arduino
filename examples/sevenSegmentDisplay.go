@@ -8,7 +8,7 @@ import (
 
 //SevenSegmentDisplay 七段数码管
 func SevenSegmentDisplay() {
-	doflys := [10]byte{
+	numbers := [10]byte{
 		0x3f,
 		0x06,
 		0x5b,
@@ -35,9 +35,9 @@ func SevenSegmentDisplay() {
 		led.Configure(machine.PinConfig{Mode: machine.PinOutput})
 	}
 	for {
-		for _, dofly := range doflys {
+		for _, num := range numbers {
 			for i, led := range leds {
-				state := dofly>>i&1 == 1
+				state := num>>i&1 == 1
 				led.Set(!state)
 			}
 			util.Delay(500)
