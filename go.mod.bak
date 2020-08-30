@@ -1,0 +1,9 @@
+module arduino.yyue.dev
+
+go 1.15
+
+// require (
+//   machine v0.14.0
+//   )
+
+// replace machine => C:\Users\yy727\Documents\workspace\tinygo\src\machine

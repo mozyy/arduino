@@ -1,0 +1,22 @@
+{
+  "[go]": {},
+    // "go.goroot": "C:\\go",
+    // "go.goroot": "C:\\Users\\yy727\\Documents\\workspace\\tinygo",
+    "go.gopath": "C:\\Users\\yy727\\Documents\\workspace\\tinygo",
+    "go.toolsEnvVars": {
+        "GOARCH": "arm",
+        "GOOS": "linux",
+    },
+    "go.buildTags": "iot,arduino,tinygo,gc.conservative,scheduler.coroutines",
+    "gopls": {
+        "buildFlags": [
+            "-tags=iot,arduino,tinygo,gc.conservative,scheduler.coroutines"
+        ],
+    },
+    "go.languageServerFlags": [
+        "serve",
+        "-rpc.trace",
+        "--debug=localhost:6060",
+    ],
+    "go.inferGopath": false,
+}
