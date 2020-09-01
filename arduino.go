@@ -9,5 +9,7 @@ func main() {
 	// examples.Button()
 	// examples.KnightRiderLEDArray()
 	// examples.Potentiometer()
-	examples.SevenSegmentDisplay()
+	// examples.SevenSegmentDisplay()
+	examples.MatrixKeyboard()
+	// examples.Buzzer()
 }
