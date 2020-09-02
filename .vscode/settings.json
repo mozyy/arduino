@@ -2,7 +2,7 @@
   "[go]": {},
     // "go.goroot": "C:\\go",
     // "go.goroot": "C:\\Users\\yy727\\Documents\\workspace\\tinygo",
-    "go.gopath": "C:\\Users\\yy727\\Documents\\workspace\\tinygo",
+    "go.gopath": "${env:TINYGOPATH}",
     "go.toolsEnvVars": {
         "GOARCH": "arm",
         "GOOS": "linux",
