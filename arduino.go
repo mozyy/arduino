@@ -10,6 +10,6 @@ func main() {
 	// examples.KnightRiderLEDArray()
 	// examples.Potentiometer()
 	// examples.SevenSegmentDisplay()
-	examples.MatrixKeyboard()
-	// examples.Buzzer()
+	// examples.MatrixKeyboard()
+	examples.Buzzer()
 }
